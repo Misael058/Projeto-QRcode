@@ -1,0 +1,56 @@
+body {
+    background-image: url(img/maquina.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color:gold;
+    box-shadow: 0px 0px 10px rgb(243, 240, 240);
+    text-align: center;
+    background-color: black;
+
+}
+.QRcode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+.QRcode img {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px white;
+}
+
+
+
+
+.texto {
+    outline: none;
+    box-shadow: 0px 0px 10px white;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    outline: none;
+    margin-left: 40%;
+    cursor: pointer;
+    border: none;
+    transition: 1.2s;
+
+}
+button:hover {
+    background-color: blue;
+}
